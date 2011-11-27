@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>STL Coders - Write something already!</title>
+    <title>{{ page.title }}</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -79,81 +79,27 @@
 
   <body>
 
-    <div class="topbar">
-      <div class="fill">
-        <div class="container">
-          <a class="brand" href="/">STL Coders</a>
-          <ul class="nav">
-            <li class="active"><a href="#">Home</a></li>
-            <!-- <li><a href="#about">About</a></li> -->
-            <!-- <li><a href="#contact">Contact</a></li> -->
-          </ul>
-        </div>
-      </div>
-    </div>
 
     <div class="container">
+
 
       <div class="content">
         <div class="page-header">
           <h1>STL Coders <small>"Talk is cheap.  Show me the code."</small></h1>
         </div>
         <div class="row">
-          <div class="span10">
-            <h2>README.TXT</h2>
-            <p>This is the first piece of code written for StlCoders.  The source can be found at
-            <a href="https://github.com/stlcoders/stlcoders.github.com">GitHub</a>.</p>  
-
-            <p>We're two developers who talked about code at work and decided
-            to start a coder group.  Here's some guidelines:</p>
-
-            <h3>More code, less talk</h3>
-            <p>Our meetings will focus on writing actual code.  Which sounds more fun to you?</p>
-            <ol>
-                <li>Watch a presentation</li>
-                <li>Take notes about history, setup, and syntax of a language or tool</li>
-                <li>See a few examples</li>
-                <li>Listen to Questions and Discussion</li>
-                <li>Go home and throw your notes on a pile</li>
-            </ol>
-
-            Or,
-
-            <ol>
-                <li>Sit with 2-3 fellow coders at an actual computer</li>
-                <li>Write code</li>
-                <li>Publish the code</li>
-            </ol>
-
-            (We're in the 2nd group, by the way)
-
-            <h3>Frequent Meetings</h3>
-            <p>We plan to meet *weekly* and very informally. Beer and coffee
-            are requisites, as well as laid-back atmosphere.  The less time
-            that's spent preparing for a meeting is more time that can be spent
-            writing actual code.</p>
-
-            <h3>Pair programming, beginner/n00b friendly</h3>
-            <p>Coders should take turns at the keyboard.  The purpose is to
-            learn and to write code.  You can't write code by watching.</p>
-            
-            <h3>Share what we do.</h3>
-            <p>We intend to post snippets of what we've done to GitHub.
-            Perhaps the stuff we work on will spur more contributions and other
-            ideas.</p>
-
-            <p>Enough talk.  No, I won't keep you updated. If you're interested, e-mail me at 
-            <a href="mailto:nate@nateneff.com">nate@nateneff.com</a>
-            </p>
-          </div>
-          <div class="span4">
-            <h3>About Us</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
-            <h3>Location</h3>
-            <p>TBD</p>
-            <h3>Next Meeting</h3>
-            <p>TBD</p>
-          </div>
+            <div class="span10">
+                {{content}}
+            </div>
+            <div class="span4">
+                {% include sidebar.html %}
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum </p>
+                <h3>Location</h3>
+                <p>TBD</p>
+                <h3>Next Meeting</h3>
+                <p>TBD</p>
+            </div>
         </div>
       </div>
 
