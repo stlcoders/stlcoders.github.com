@@ -40,3 +40,7 @@ body {
 li {
     color: #404040;
 }
+
+.page-header a, .page-header a:hover {
+    color: inherit;
+}
