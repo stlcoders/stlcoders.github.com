@@ -2,49 +2,7 @@
 layout: default
 title: STL Coders -- Code something!
 ---
-<h2>README.TXT</h2>
-<p>This is the first piece of code written for Stlcoders.  The source can be found at
-<a href="https://github.com/stlcoders/stlcoders.github.com">GitHub</a>.</p>  
-
-<p>We're two developers who talked about code at work and decided
-to start a coder group.  Here's some guidelines:</p>
-
-<h3>More code, less talk</h3>
-<p>Our meetings will focus on writing actual code.  Which sounds more fun to you?</p>
-<ol>
-    <li>Watch a presentation</li>
-    <li>Take notes about history, setup, and syntax of a language or tool</li>
-    <li>See a few examples</li>
-    <li>Listen to Questions and Discussion</li>
-    <li>Go home and throw your notes on a pile</li>
-</ol>
-
-Or,
-
-<ol>
-    <li>Sit with 2-3 fellow coders at an actual computer</li>
-    <li>Write code</li>
-    <li>Publish the code</li>
-</ol>
-
-(We're in the 2nd group, by the way)
-
-<h3>Frequent Meetings</h3>
-<p>We plan to meet *weekly* and very informally. Beer and coffee
-are requisites, as well as laid-back atmosphere.  The less time
-that's spent preparing for a meeting is more time that can be spent
-writing actual code.</p>
-
-<h3>Pair programming, beginner/n00b friendly</h3>
-<p>Coders should take turns at the keyboard.  The purpose is to
-learn and to write code.  You can't write code by watching.</p>
-
-<h3>Share what we do.</h3>
-<p>We intend to post snippets of what we've done to GitHub.
-Perhaps the stuff we work on will spur more contributions and other
-ideas.</p>
-
-<p>Enough talk.  No, I won't keep you updated. If you're interested, e-mail me at 
-<a href="mailto:nate@nateneff.com">nate@nateneff.com</a>
-</p>
-
+{% assign post = site.posts.first %}
+<h1>{{ post.title }}</h1>
+<h6>{{ post.date | date: "%B %d, %Y" }}</h6>
+{{ post.content }}
