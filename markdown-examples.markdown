@@ -40,17 +40,17 @@ You can also get the same effect _inline_ with a single backtick: `println "doo"
 
 This is a big section of Groovy code:
 
-```groovy
+{% highlight groovy %}
 println "doo"
 def foo = "doo".reverse()
 println "Doo reversed is: ${foo}"
-```
+{% endhighlight %}
 
-```ruby
+{% highlight groovy %}
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
-```
+{% endhighlight %}
 
 
 ## "Meeting" Notes
