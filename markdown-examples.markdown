@@ -1,6 +1,5 @@
 ---
 layout: default
-plugin: true
 ---
 
 # Jekyll uses Maruku to render Markdown
