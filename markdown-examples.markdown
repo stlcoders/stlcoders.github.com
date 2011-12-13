@@ -1,5 +1,6 @@
 ---
 layout: default
+plugin: true
 ---
 
 # Jekyll uses Maruku to render Markdown
@@ -31,6 +32,12 @@ This is also *italics* -- kinda lame, should be **bold** in my opinion.
 
 ## Listing Code
 
+{% highlight ruby %}
+def awesome
+  "for real. I know."
+end
+{% endhighlight %}
+
 Put four spaces in front of text to get this:
 
     Six is a serious number
@@ -40,13 +47,13 @@ You can also get the same effect _inline_ with a single backtick: `println "doo"
 
 This is a big section of Groovy code:
 
-{% highlight groovy %}
+{% highlight ruby %}
 println "doo"
 def foo = "doo".reverse()
 println "Doo reversed is: ${foo}"
 {% endhighlight %}
 
-{% highlight groovy %}
+{% highlight ruby %}
 require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
