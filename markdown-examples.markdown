@@ -3,7 +3,7 @@ layout: default
 plugin: true
 ---
 
-# Jekyll uses Maruku to render Markdown
+# STL Coders uses Jekyll and Markdown
 
 [ Maruku ]( http://maruku.rubyforge.org/maruku.html )
 
@@ -82,6 +82,7 @@ Felix's has been very hospitable to the STL Coders, having helped with
 powering our massive-awesome 4-year old Macbooks and providing great pizza
 and reasonably priced drinks.  Their pizza does **indeed** rock.  Thanks again
 to Felix's, and check them out at
+
 [http://www.felixsrestaurant.com](http://www.felixsrestaurant.com)
 
 # See Also (Links)
