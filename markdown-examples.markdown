@@ -1,6 +1,5 @@
 ---
 layout: default
-plugin: true
 ---
 
 # STL Coders uses Jekyll and Markdown
@@ -17,17 +16,25 @@ Kinda _big_ this is _italics_
 This is also *italics* -- kinda lame, should be **bold** in my opinion.
 
 * List 1
+
     * Subitem 1
+
     * Subitem 2
+
     * Subitem 3
+
     * Subitem 4
+
+    1. List
+
 
 * List 2
 
-1. Numbered List
-1. Numbered List 2
-1. Numbered List 2
-1. Numbered List 3
+    1. Numbered Sublists have to be done explicitly? 
+
+    2. Numbered List 2
+
+    1. Numbered List 3
      
 
 ## Listing Code
@@ -45,12 +52,10 @@ Put four spaces in front of text to get this:
 
 You can also get the same effect _inline_ with a single backtick: `println "doo"`
 
-This is a big section of Groovy code:
+This is a big section of Clojure code:
 
-{% highlight ruby %}
-println "doo"
-def foo = "doo".reverse()
-println "Doo reversed is: ${foo}"
+{% highlight clojure %}
+(+ 2 2)
 {% endhighlight %}
 
 {% highlight ruby %}
@@ -74,16 +79,6 @@ This is quoted text:
 > cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
 > laborum 
 
-
-
-# Felix's
-
-Felix's has been very hospitable to the STL Coders, having helped with
-powering our massive-awesome 4-year old Macbooks and providing great pizza
-and reasonably priced drinks.  Their pizza does **indeed** rock.  Thanks again
-to Felix's, and check them out at
-
-[http://www.felixsrestaurant.com](http://www.felixsrestaurant.com)
 
 # See Also (Links)
 
